@@ -1,57 +1,51 @@
-# SSHKitten 🐾
 
-Welcome to Cat SSH Motd, a script that adds a touch of feline flair to your SSH login message of the day (motd).
+# Cat SSH Motd 🐾
 
-## Setup
+Welcome to Cat SSH Motd, your ticket to a purr-fectly delightful SSH login experience! 🐱✨
 
-### Prerequisites
+## Installation 🚀
+
+### Prerequisites 🛠️
+
 - Python 3.x
 - Pip
 - Git
 
-### Installation
+### Clone the Repository
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/wrexik/SSHKitten.git
-    cd cat-ssh-motd
-    ```
+```bash
+git clone https://github.com/wrexik/cat-ssh-motd.git
+cd cat-ssh-motd
+```
 
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+### Install Dependencies
 
-3. Configure your API key:
-
-    - Run the following command to create a default configuration file:
-        ```bash
-        cp config.ini.example config.ini
-        ```
-
-    - Open `config.ini` in a text editor and replace `YOUR_API_KEY` with your actual Cat API key.
-
-## Configuration
-
-To configure the Cat SSH Motd script, you need to set up your Cat API key in the `config.ini` file.
-
-1. Open `config.ini` in a text editor:
-    ```bash
-    nano config.ini
-    ```
-
-2. Replace `YOUR_API_KEY` with your actual Cat API key.
-
-3. Save and exit the editor.
-
-## Usage
-
-Once you have set up and configured the Cat SSH Motd, the cat ASCII art will be displayed in your terminal upon SSH login.
-
-Enjoy the whimsical world of cats in your SSH sessions! 🐱🌟
-
-## Dependencies
-
-The project requires the following Python packages. You can install them using the command:
 ```bash
 pip install -r requirements.txt
+```
+
+### Configure Your Cat API Key
+Get your API key [here](https://thecatapi.com/). Now, let's add a touch of personalization by updating the config:
+
+```bash
+nano config.ini
+```
+
+Replace `YOUR_API_KEY` with your actual Cat API key. Feel the feline magic! 🪄🐾
+
+## Integration with SSH Motd Script 🛠️
+
+To whisker-ly integrate the program with your SSH MOTD, follow these simple steps:
+1. Locate your SSH MOTD scripts, usually nestled in ```/etc/motd.d/YOUR_SCRIPTS```
+2. While in the directory, run ```nano myscript.sh``` (don't forget ```sudo``` if needed)
+3. Add the following line: ```python3 /YOUR/PATH/TO/login.py```
+4. Save and exit
+5. Victory lap! 🎉
+
+## Usage 🐱
+
+Once the installation and configuration are complete, let the cat ASCII art give you a warm fuzzy welcome upon SSH login! 🌟
+
+Now, dive into the whimsical world of cats in your terminal! 🐾✨
+
+P.S. Enjoy the kitty company and may your coding sessions be fur-tastic! 🚀🐈
