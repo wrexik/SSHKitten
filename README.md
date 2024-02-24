@@ -2,6 +2,9 @@
 # SSH Kitten MOTD 🐾
 
 Welcome to Cat SSH Motd, your ticket to a purr-fectly delightful SSH login experience! 🐱✨
+<div align="center">
+  <img src="preview.png" alt="pre" width="500"/>
+</div>
 
 ## Installation 🚀
 
