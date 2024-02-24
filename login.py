@@ -52,6 +52,7 @@ def get_random_cat_image(api_key):
     }
 
     print("Getting your cat <3")
+    print(" ")
 
     try:
         response = requests.get(url, headers=headers)
