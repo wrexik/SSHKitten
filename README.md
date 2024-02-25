@@ -51,4 +51,4 @@ Once the installation and configuration are complete, let the cat ASCII art give
 
 Now, dive into the whimsical world of cats in your terminal! 🐾✨
 
-P.S. Enjoy the kitty company and may your coding sessions be fur-tastic! 🚀🐈
+P.S. Enjoy the kitty company and may your coding sessions be fur-tastic! 🚀🐈. Star me 🌟!
